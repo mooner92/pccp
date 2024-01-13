@@ -15,6 +15,3 @@ def solution(s):
     for item in digit:
         s = s.replace(item, digit[item])
     return int(s)
-
-
-#####
